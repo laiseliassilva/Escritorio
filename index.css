@@ -1,0 +1,71 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Fundo preto */
+    color: white; /* Texto branco */
+    text-align: center;
+}
+
+/* Estilo do container com logo e texto */
+.container {
+    margin-top: 30%;
+}
+
+.logo img {
+    width: 100px; /* Largura */
+    height: 100px; /* Altura */
+    border-radius: 0; /* Forma quadrada */
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Estilo dos botões */
+.buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    display: block;
+    margin: 10px auto;
+    padding: 15px 30px;
+    background-color: #ffffff; /* Cor do botão */
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 50%;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ffffff; /* Cor do botão ao passar o mouse */
+}
+
+.footer {
+    background-color: #000; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto */
+    text-align: center; /* Centraliza o conteúdo */
+    padding: 5px 10px; /* Espaçamento interno */
+    position: fixed; /* Fixa o rodapé no final da página */
+    bottom: 0; /* Posiciona na parte inferior */
+    width: 100%; /* Ocupa toda a largura */
+    font-size: 5px; /* Tamanho do texto */
+    border-top: 2px solid #ffffff; /* Linha superior decorativa */
+}
+
+
+/* Integração do VLibras */
+.vlibras-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
